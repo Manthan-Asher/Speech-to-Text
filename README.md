@@ -1,6 +1,7 @@
 # Speech-to-Text
 A web app which renders transcript from an audio file using speech to text api
-(I have not used react here since a single html file would have been sufficient)
+
+ps.(I have not used react here since a single html file would have been sufficient)
 
 # Output preview
 
