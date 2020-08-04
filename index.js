@@ -31,7 +31,7 @@ const speechToText = new SpeechToTextV1({
 
 var storage = multer.diskStorage({
   destination: function (req, file, callback) {
-    callback(null, "./music");
+    callback(null, "./audio");
   },
   filename: function (req, file, callback) {
     //callback(null, file.fieldname + '-' + Date.now() + path.extname(file.originalname))
@@ -52,7 +52,7 @@ app.post("/upload", upload.single("upload"), (req, res) => {
 app.get("/done", async (req, res) => {
   const params = {
     // From file
-    audio: fs.createReadStream(`./music/${fileName}`),
+    audio: fs.createReadStream(`./audio/${fileName}`),
     contentType: `audio/${extension}; rate=44100`,
   };
 
