@@ -8,8 +8,7 @@ ps.(I have not used react here since a single html file would have been sufficie
 
 ![alt text](https://github.com/Manthan-Asher/Speech-to-Text/blob/master/gif/ezgif.com-video-to-gif.gif?raw=true)
 
-The audio uploaded is present in the gif is present in 'audio' folder:-
-    (https://github.com/Manthan-Asher/Speech-to-Text/blob/master/audio/a.mp3?raw=true)
+The audio uploaded is present in the gif is present in 'audio' folder.
 
 Here is the output generated :-
 
