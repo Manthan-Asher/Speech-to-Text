@@ -1,4 +1,5 @@
 # Speech-to-Text
+
 A web app which renders transcript from an audio file using speech to text api
 
 ps.(I have not used react here since a single html file would have been sufficient)
@@ -6,6 +7,14 @@ ps.(I have not used react here since a single html file would have been sufficie
 # Output preview
 
 ![alt text](https://github.com/Manthan-Asher/Speech-to-Text/blob/master/gif/ezgif.com-video-to-gif.gif?raw=true)
+
+The audio uploaded is present in the gif is present in 'audio' folder
+
+Here is the output generated :-
+
+    Below is the transcript with a confidence of 0.91
+
+        hello how are you
 
 # Sample Audio
 
